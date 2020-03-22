@@ -1,0 +1,15 @@
+~ .		  The dot (.) matches anything (except for a newline).
+~ \.	  If you want to match (.) in the test string, you need to escape the dot by using a slash \.
+~ \d	  The expression \d matches any digit [0-9].
+~ \D	  The expression \D matches any character that is not a digit.
+~ \s	  The expression \s matches any whitespace character [ \r\n\t\f ].
+~ \S	  The expression \S matches any non-white space character.
+~ \w	  The expression \w matches any word characters (a-z, A-Z, 0-9 & underscore _ )
+~ \W	  The expression \W matches any non-word character i.e other than a-z, A-Z, 0-9 & Underscore _.
+~ ^		  The ^ symbol matches the position at the start of a string.
+~ $		  The $ symbol matches the position at the end of a string. The $ boundary matcher matches an occurrence of a character/character class/group at the end of a line.
+~ [^]	  The negated character class [^] matches any character that is not in the square brackets.
+~ {x}	  The tool {x} will match exactly x repetitions of character/character class/groups.
+~ {x,y}	The {x,y} tool will match between x and y (both inclusive) repetitions of character/character class/group.
+~ *		  The * tool will match zero or more repetitions of character/character class/group.
+~ + 	  The + tool will match one or more repetitions of character/character class/group.
