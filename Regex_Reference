@@ -13,3 +13,5 @@
 ~ {x,y}	The {x,y} tool will match between x and y (both inclusive) repetitions of character/character class/group.
 ~ *		  The * tool will match zero or more repetitions of character/character class/group.
 ~ + 	  The + tool will match one or more repetitions of character/character class/group.
+~ ()    Parenthesis () around a regular expression can group that part of regex together & allows us to apply different quantifiers to that group.
+~ |     Alternations, denoted by the | character, match a single item out of several possible items separated by the vertical bar. When used inside a character class, it will match characters; when used inside a group, it will match entire expressions (i.e., everything to the left or everything to the right of the vertical bar). We must use parentheses to limit the use of alternations.
